@@ -159,3 +159,12 @@ quote{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.footer{
+    color: white;
+    background-color: #1F2937;
+    padding: 40px 230px 40px 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
