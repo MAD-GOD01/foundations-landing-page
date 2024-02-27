@@ -103,3 +103,23 @@ ul{
     border-radius: 8px;
     margin: 5px;
 }
+
+.quote-section{
+    padding: 50px 350px 100px 350px;
+    background-color: #e5e7eb;
+}
+
+quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: end;
+}
