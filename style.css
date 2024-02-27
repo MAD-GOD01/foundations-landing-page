@@ -69,9 +69,37 @@ ul{
     margin: 15px 0;
     border-radius: 8px;
     border-style: none;
-    background-color: rgb(45, 129, 255);
+    background-color: #3882F6;
     color: white;
     font-size: 18px;
     font-weight: 600;
 }
 
+.info-section{
+    padding: 50px 230px 100px 230px;
+    text-align: center;
+}
+.info-section span{
+    font-size: 28px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.info-container{
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.info{
+    flex: 1;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.info-image-container{
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 8px;
+    margin: 5px;
+}
