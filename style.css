@@ -38,7 +38,6 @@ ul{
     width: 200px;
 }
 
-/* Padding to add space at the side of the web site's content */
 .hero{
     display: flex;
     padding: 50px 230px 100px 230px;
@@ -122,4 +121,41 @@ quote{
     font-size: 18px;
     color: #1F2937;
     text-align: end;
+}
+
+.call2action-section{
+    padding: 50px 230px 100px 230px;
+}
+
+.call2action-container{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    padding: 25px 120px 25px 120px;
+    align-items: center;
+}
+
+.call2action-left{
+    flex: 3;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.call2action-left .description{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.call2action-right{
+    flex: 1;
+    text-align: center;
+}
+
+.call2action-section .signup-btn{
+    border: solid white ;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
